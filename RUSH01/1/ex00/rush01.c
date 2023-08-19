@@ -2,9 +2,6 @@
 #include <unistd.h>
 #include <stdlib.h>
 
-//Incluyo el archivo del ft_putchar
-void ft_putchar(char c);
-
 //TABLA 4X4
 
 int grid[4][4] = 0;
