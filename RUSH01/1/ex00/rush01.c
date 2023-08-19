@@ -47,12 +47,12 @@ void print_grid() {
     while (i < 4) {
         int j = 0;
         while (j < 4) {
-            char c = grid[i][j] + '0';
-            ft_putchar(c);
-            ft_putchar(' ');
+            printf("%d ", grid[i][j]);
             j++;
         }
-        ft_putchar('\n');
+        printf("\n");
         i++;
     }
 }
+
+
